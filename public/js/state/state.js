@@ -23,7 +23,7 @@ const defaultMenuState = [
       { name: 'Feta Dip and Pita', price: 5.95 },
       { name: 'Roast Potatoes', price: 4.95 },
       { name: 'Keftedes', price: 7.50, detail: '(With Tzatziki)' },
-      { name: 'Appetizer Plate', price: 16.95, detail: 'Breaded Prawns, Spinach Pie, Roast Potatoes, Chicken Fingers, Keftedes, Pita Bread and Choice of Dip (No Substitutions)' },
+      { name: 'Appetizer Plate', price: 16.95, detail: 'Breaded Prawns, Spinach Pie, Roast Potatoes, Chicken Fingers, Keftedes, Pita Bread and Choice of Dip (No Substitutions)' }
     ]
   },
   {
@@ -36,7 +36,7 @@ const defaultMenuState = [
       { name: 'Greek Salad', price: { 'Small': 7.95, 'Large': 10.25 } },
       { name: 'Hot Prawn & Mushroom Salad', price: 11.95 },
       { name: 'Grilled Chicken Salad', price: 11.95 },
-      { name: 'Chef\'s Salad', price: 7.95, detail: 'Lettuce, Tomatoes, Green Peppers & Feta' },
+      { name: 'Chef\'s Salad', price: 7.95, detail: 'Lettuce, Tomatoes, Green Peppers & Feta' }
     ]
   },
   {
@@ -52,7 +52,7 @@ const defaultMenuState = [
     id: 'greek',
     name: 'Greek Dishes',
     detail: 'Served with Rice, Potatoes, Tzatziki, Greek Salad & Pita Bread',
-    extra: 'Greek Salad: 2.95', //TODO
+    extra: 'Greek Salad: 2.95', // TODO
     items: [
       { name: 'Spinach Pie Dinner', price: 14 },
       { name: 'Kalamari', price: 15 },
@@ -63,12 +63,19 @@ const defaultMenuState = [
       { name: 'Lamb Souvlaki', price: 17 },
       { name: 'Roast Lamb', price: 17 },
       { name: 'Prawn Souvlaki', price: 17.50 },
-      { name: 'Lamb Chops', price: 17.50 },
+      { name: 'Lamb Chops', price: 17.50 }
     ]
   },
   {
     id: 'steaks',
-    name: 'Steaks'
+    name: 'Steaks',
+    sub: 'Greek Salid: 2.95', // TODO
+    extra: 'Pan Fried Mushrooms: 3.50', // TODO
+    items: [
+      { name: '8 oz Top Sirloin', price: 17.75, detail: 'With Baked Potatoe, Rice or Fries' },
+      { name: '12 oz Top Sirloin', price: 19.75, detail: 'With Baked Potatoe, Rice or Fries' },
+      { name: '7 oz Top Sirloin', price: 17.95, detail: 'With Green Salad, Garlic Bread and Spaghetti, Lasagna or Rigatoni' },
+    ]
   },
   {
     id: 'bbq',
